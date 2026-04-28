@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan *)",
+      "Bash(php --version)",
+      "Bash(where php *)",
+      "Bash(C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.exe artisan *)",
+      "Bash(php vendor/phpunit/phpunit/phpunit --list-tests)",
+      "Bash(php -r \"echo PHP_VERSION;\")",
+      "Bash(C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.exe -r \"echo shell_exec\\('C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.exe composer.phar --version 2>&1'\\);\")",
+      "Bash(where composer *)",
+      "Bash(composer require *)",
+      "Bash(C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.exe C:/laragon/bin/composer/composer require livewire/livewire)",
+      "Bash(C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.exe C:/laragon/bin/composer/composer.phar require livewire/livewire)",
+      "Bash(C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.exe C:/laragon/bin/composer/composer.phar show)",
+      "Bash(C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.exe C:/laragon/bin/composer/composer.phar require laravel/breeze --dev)",
+      "Bash(npm run *)",
+      "Bash(C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.exe -m)",
+      "Bash(C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.exe --ini)",
+      "Read(//c/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/**)",
+      "Bash(sed -i 's/^;extension=pdo_sqlite/extension=pdo_sqlite/' C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.ini)",
+      "Bash(sed -i 's/^;extension=sqlite3/extension=sqlite3/' C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.ini)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/auctions)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8080/auctions)",
+      "Bash(curl -s http://127.0.0.1:8080/auctions)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8080/auctions/1)",
+      "Bash(npx vite *)",
+      "Bash(C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.exe -r \"echo sys_get_temp_dir\\(\\) . PHP_EOL; echo ini_get\\('upload_tmp_dir'\\) . PHP_EOL; echo ini_get\\('file_uploads'\\) . PHP_EOL;\")",
+      "Bash(C:/laragon/bin/php/php-8.2.29-nts-Win32-vs16-x86/php.exe -r ' *)",
+      "Bash(C:/laragon/bin/php/php8.2.26/php.exe artisan *)",
+      "Read(//c/laragon/bin/php//**)",
+      "Read(//c/laragon/bin/php/**)",
+      "Bash(\"/c/laragon/bin/php/php-8.2.29-Win32-vs16-x64/php.exe\" artisan *)",
+      "Bash(\"/c/laragon/bin/php/php-8.2.29-Win32-vs16-x64/php.exe\" -m)",
+      "Bash(/c/laragon/bin/php/php-8.2.29-Win32-vs16-x64/php.exe artisan *)",
+      "Bash(\"/c/laragon/bin/php/php-8.2.29-Win32-vs16-x64/php.exe\" -d extension_dir=\"/c/laragon/bin/php/php-8.2.29-Win32-vs16-x64/ext\" artisan test --testsuite=Feature)",
+      "Bash(/c/laragon/bin/php/php-8.2.29-Win32-vs16-x64/php.exe -r ' *)"
+    ]
+  }
+}
